@@ -1,0 +1,50 @@
+{
+  "typescript.tsdk": "application/node_modules/typescript/lib",
+  "typescript.preferences.preferTypeOnlyAutoImports": true,
+  "typescript.preferences.includePackageJsonAutoImports": "on",
+  "javascript.preferences.importModuleSpecifier": "project-relative",
+  "typescript.preferences.importModuleSpecifier": "project-relative",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "quickfix.biome": "explicit",
+    "source.organizeImports.biome": "explicit"
+  },
+  "editor.defaultFormatter": "biomejs.biome",
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[bicep]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-bicep"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "files.associations": {
+    "*.css": "tailwindcss"
+  },
+  "githubIssues.issueBranchTitle": "${issueNumber}-${sanitizedLowercaseIssueTitle}",
+  "githubPullRequests.assignCreated": "${user}",
+  "biome.enabled": true,
+  "biome.lsp.trace.server": "verbose",
+  "biome.lsp.bin": "application/node_modules/.bin/biome",
+  "biome.projects": [
+    {
+      "folder": "application",
+      "path": "application",
+      "configFile": "biome.json"
+    }
+  ],
+  "biome.requireConfigFile": true
+}

@@ -1,0 +1,31 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "tasks": {
+    "check": {
+      "dependsOn": [
+        "^check"
+      ]
+    },
+    "lint": {
+      "dependsOn": [
+        "^lint"
+      ]
+    },
+    "format": {
+      "dependsOn": [
+        "^format"
+      ]
+    },
+    "ci": {
+      "dependsOn": [
+        "^ci"
+      ]
+    },
+    "clean": {
+      "cache": false
+    }
+  },
+  "remoteCache": {
+    "enabled": false
+  }
+}

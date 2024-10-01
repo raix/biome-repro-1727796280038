@@ -1,0 +1,28 @@
+{
+	"name": "biome-repro",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"packageManager": "npm@10.8.3",
+	"workspaces": [
+		"app-a/WebApp",
+		"app-b/WebApp"
+	],
+	"scripts": {
+		"check": "turbo check",
+		"lint": "turbo lint",
+		"format": "turbo format",
+		"ci": "turbo ci"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.2",
+		"@types/react": "^18.3.10",
+		"@types/react-dom": "^18.3.0",
+		"turbo": "^2.1.1",
+		"typescript": "^5.5.4"
+	},
+	"dependencies": {
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1"
+	}
+}

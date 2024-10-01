@@ -1,0 +1,12 @@
+{
+	"name": "app-b",
+	"version": "0.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"format": "biome format .",
+		"lint": "biome lint",
+		"check": "biome check",
+		"ci": "biome ci"
+	}
+}

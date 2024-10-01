@@ -1,5 +1,5 @@
 {
-	"name": "biome-repro",
+	"name": "app-a",
 	"version": "0.0.0",
 	"private": true,
 	"type": "module",
@@ -8,8 +8,5 @@
 		"lint": "biome lint",
 		"check": "biome check",
 		"ci": "biome ci"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "1.9.2"
 	}
 }
